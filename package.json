@@ -1,0 +1,30 @@
+{
+  "name": "gas-node-clasp",
+  "version": "1.0.0",
+  "description": "Project for Google Apps Script, clasp and node.js",
+  "scripts": {
+    "glogin": "clasp login",
+    "glogout": "clasp logout",
+    "gcreate": "clasp create --type standalone --title 'gas-node-clasp-react' --rootDir ./apps-script",
+    "gpull": "clasp pull",
+    "gpush": "clasp push",
+    "gpush-watch": "clasp push --watch",
+    "gopen-webapp": "clasp open --webapp",
+    "gdeploy": "clasp deploy --description",
+    "gundeploy-all": "clasp undeploy --all",
+    "test-build-react-app": "parcel src/index.html --dist-dir ./apps-script",
+    "build-react-app": "parcel build src/index.html --dist-dir ./apps-script"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@google/clasp": "^2.4.2",
+    "@types/google-apps-script": "^1.0.83",
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
