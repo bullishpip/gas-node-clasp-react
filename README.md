@@ -273,4 +273,4 @@ Executing task: npm run gopen-webapp
 ? Open which deployment?                               @HEAD - AKfycbzH9eJj22BdzKJDbXqvUHCwm4InMvCB12UynrEQrNQ
 Opening web application: AKfycbzH9eJj22BdzKJDbXqvUHCwm4InMvCB12UynrEQrNQ
 ```
-![image](https://github.com/bullishpip/gas-node-clasp-react/assets/686487/839b7ec4-1e06-45c1-8403-a74428710e25)
+![image](https://github.com/bullishpip/gas-node-clasp-react/assets/686487/f5e3833b-31ba-4de2-a8db-52a7f2a7b772)
